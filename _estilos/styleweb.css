@@ -1,0 +1,123 @@
+
+
+.logo{
+	float: left;
+	width: 30%;
+	padding-top:0.8em;
+	text-align: center;
+}
+
+.logoDC {
+	 -webkit-border-radius:5px; /*Chrome y Safari
+    -moz-border-radius:5px;/*Firefox
+    -o-border-radius:5px;/*Opera*/
+   
+    border-radius: 0em;/*Estandar por defecto*/
+    
+    font-family:'Open Sans';
+    font-size:30px;
+    font-weight:bold;
+    margin-right:10px;
+    text-align:center;
+    /*Sombras para texto, los mismos parametros que box-shadow*/
+    text-shadow: 0px 1px 0px #000000;
+    color: #fff;
+}
+
+
+
+.menu{
+	float: right;
+	width: 50%;
+	padding-top:1em;
+	padding-right:5em;
+
+}
+
+.menu .menu-line{
+	float: left;
+
+	
+}
+
+
+nav ul{
+    list-style:none;
+    margin:0 10px 0 10px;
+    padding:0;
+}
+
+nav ul li{
+    /*Bordes redondeados
+   
+    -webkit-border-radius:5px; /*Chrome y Safari
+    -moz-border-radius:5px;/*Firefox
+    -o-border-radius:5px;/*Opera*/
+   
+    border-radius: 0em;/*Estandar por defecto*/
+    float:left;
+    font-family:'Open Sans';
+    font-size:16px;
+    font-weight:bold;
+    margin-right:10px;
+    text-align:center;
+    /*Sombras para texto, los mismos parametros que box-shadow*/
+    text-shadow: 0px 1px 0px #177343;
+}
+
+
+ /**  **  ** box-shadow: 2px 2px 5px #999; **  **  **  */
+
+nav ul li:hover{
+    /*Degradado de fondo
+  
+
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to( #E3E3E3));/*Chrome y Safari
+    background-image: -moz-linear-gradient(top center, #FFF, #E3E3E3);/*Firefox
+    background-image: -o-linear-gradient(top, #FFF, #E3E3E3);/*Opera
+    background-image: linear-gradient(top, #FFF, #E3E3E3);/*Estandar por defecto*/
+    /*Sombras*/
+
+    background: #FFF;
+    /*
+    -webkit-box-shadow:  1px -1px 0px #999;/*Chrome y Safari
+    -moz-box-shadow:  1px -1px 0px #999;/*Firefox
+    -o-box-shadow:  1px -1px 0px #999;/*Opera
+    box-shadow:  1px -1px 0px #999;/*Estandar por defecto*/
+    border-bottom: 0.15em solid #FFF;
+
+}
+
+
+nav ul li a{
+    color:#fff;
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    /*Transiciones
+    -webkit-transition: 0.4s linear all;
+    -moz-transition: 0.4s linear all;
+    -o-transition: 0.4s linear all;
+    transition: 0.4s linear all;*/
+}
+
+nav ul li a:hover {
+    color:#A01616;
+}
+
+
+.bodyCenter {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to( #E3E3E3));/*Chrome y Safari*/
+    background-image: -moz-linear-gradient(top center, #FFF, #E3E3E3);/*Firefox*/
+    background-image: -o-linear-gradient(top, #FFF, #E3E3E3);/*Opera*/
+    background-image: linear-gradient(top, #FFF, #E3E3E3);/*Estandar por defecto*/   
+    -webkit-box-shadow:  1px -1px 0px #999;/*Chrome y Safari*/
+    -moz-box-shadow:  1px -1px 0px #999;/*Firefox*/
+    -o-box-shadow:  1px -1px 0px #999;/*Opera*/
+    box-shadow:  1px -1px 0px #999;/*Estandar por defecto*/
+    border-bottom: 0.15em solid #FFF;
+
+}
+
+
+/*******************************************************************/

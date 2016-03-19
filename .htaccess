@@ -1,0 +1,23 @@
+# Activar RewriteEngine
+RewriteEngine on
+# Reescribir la URL solicitada por el usuario
+#   Entrada:  clientes/NOMBRE/
+#   Salida: index.php?muestra=NOMBRE
+
+
+
+RewriteRule ^empresa/(\w+)/?$ empresa.php?Url_id=$1
+SetEnv TZ America/Lima
+RewriteRule ^(\w+)/?$ index.php?Url_id=$1
+
+
+
+
+
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 182.73.41.6
